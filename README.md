@@ -1,5 +1,20 @@
 # Javascript
 
+O JavaScript é “A” linguagem de script para front end web.
+
+### Visão geral da linguagem:
+- Multiparadigma (imperativo, oo, funcional)
+- Interpretada
+- Sintaxe básica baseada em C
+- Case sensitive
+- Tipagem dinâmica
+- Funções de primeira ordem
+- Arrays heterogêneos
+- Flexível e expressiva
+- Padrão de mercado para script front end (client-side)
+- Também usada para back end e desktop
+
+
 **Tipos de dados:**
 - **number**
 - **string**
@@ -35,6 +50,7 @@ console.log(typeof i)
 ```javascript
 console.log(typeof a)
 ```
+O operador **typeof** returna uma string indicando o tipo da variavel.
 
 **Declarando o javascript dentro do projeto:**
 ```javascript
