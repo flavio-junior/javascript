@@ -190,3 +190,53 @@ console.log(`${data.substring(3, 5)}`);
 const blackSpace = "Flávio Júnior   ";
 console.log(`${blackSpace.trim()}`);
 ```
+
+**Operadores:**
+```c
+const valueOne = 15;
+const valueTwo = 3;
+
+console.log(`soma ${valueOne + valueTwo}`);
+console.log(`subtração ${valueOne - valueTwo}`);
+console.log(`multiplicação ${valueOne * valueTwo}`);
+console.log(`divisão ${valueOne / valueTwo}`);
+console.log(`resto ${valueOne % valueTwo}`);
+```
+
+**Comparadores:**
+```c
+console.log(`Menor q ${valueOne < valueTwo}`);
+console.log(`Maior q ${valueOne > valueTwo}`);
+console.log(`Menor ou igual ${valueOne <= valueTwo}`);
+console.log(`Igual ou maior ${valueOne >= valueTwo}`);
+```
+
+**Converte para um tipo em comum, depois compara:**
+- == 
+- !=
+
+**Compara levando em conta também o tipo:**
+- === 
+- !== 
+
+**Operadores comparativos de igualdade:**
+```c
+console.log(`"" == false: ${"" == false}`);
+console.log(`"" === false: ${"" === false}`);
+console.log(`"17" == 17: ${"17" == 17}`);
+console.log(`"17" === 17: ${"17" === 17}`);
+```
+
+**Operadores lógicos:**
+- && (E)
+- || (OU)
+- ! (NÃO)
+
+**Operadores lógicos:**
+```c
+console.log(`(10 > 5) && (10 > 20): ${(10 > 5) && (10 > 20)}`);
+console.log(`(10 > 5) && (10 < 20): ${(10 > 5) && (10 < 20)}`);
+console.log(`(10 > 5) || (10 > 20): ${(10 > 5) || (10 > 20)}`);
+console.log(`(10 < 5) || (10 > 20): ${(10 > 5) && (10 > 20)}`);
+console.log(`!(10 > 5): ${!(10 > 5)}`);
+```
