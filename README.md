@@ -63,3 +63,130 @@ console.log(typeof a)
    <script src="./script.js"></script> 
 </body>
 ```
+**Comentário de uma linha:**
+```c
+//console.log("Uma String literal pode ficar entre aspas duplas.");
+```
+
+**Comentário de múltiplas linhas:**
+```c
+/*
+console.log('Uma String literal pode ficar entre aspas simples.');
+console.log(`Uma String literal pode ficar entre crases.`);
+*/
+```
+
+**String com aspas duplas:**
+```c
+console.log("Uma String literal pode ficar entre aspas duplas.");
+```
+
+**String com aspas simples:**
+```c
+console.log('Uma String literal pode ficar entre aspas simples.');
+```
+
+**String com crases:**
+```c
+console.log(`Uma String literal pode ficar entre crases.`);
+```
+**Concatenação:**
+```c
+const num = 14.5;
+console.log("Concatenação: " + num);
+```
+
+**Interpolação:**
+```c
+const num = 14.5;
+console.log(`interpolação: ${num}`);
+```
+
+**Converter número para String:**
+```c
+const num = 14.5;
+const converterNumber = num.toString();
+console.log(`O tipo de ${converterNumber} é ${typeof converterNumber}`);
+```
+
+**Fixar casas decimais:**
+```c
+const fixNumber = num.toFixed(2);
+console.log(`O tipo de ${fixNumber} é ${typeof fixNumber}`);
+```
+
+**Converter String em número:**
+```c
+const converterString = Number("15.5");
+console.log(`O tipo de ${converterString} é ${typeof converterString}`);
+```
+
+**Converter string para int com casa decimal 10:**
+```c
+const converterNumber10 = parseInt("15", 10);
+console.log(`O tipo de ${converterNumber10} é ${typeof converterNumber10}`);
+```
+
+**Converter número flutuante para inteiro:**
+```c
+const convertFloat = parseFloat("19.5");
+console.log(`O tipo de ${convertFloat} é ${typeof convertFloat}`);
+```
+
+**Texto minúsculo:**
+```c
+const lawerCase = "Flávio";
+console.log(`${lawerCase.toLowerCase()}`);
+```
+
+**Texto maiúsculo:**
+```c
+const upperCase = "Flávio";
+console.log(`${upperCase.toUpperCase()}`);
+```
+
+**Recuperar letra específica:**
+```c
+const letter = "Flávio Júnior";
+console.log(`${letter.charAt(2)}`);
+```
+
+**Recuperar letra específica com colchetes:**
+console.log(`${letter[2]}`);
+
+**Subistituir letra:**
+```c
+console.log(`${letter.replace("á", "a")}`);
+```
+
+**Subistituir todas as letras:**
+```c
+console.log(`${letter.replace(/o/g, "os")}`);
+```
+
+**Ver tamanho da letra:**
+```
+console.log(`${letter.length}`);
+```
+
+**Retornar primeira posição da letra:**
+```c
+console.log(`${letter.indexOf("o")}`);
+```
+
+**Retornar última posição da letra:**
+```c
+console.log(`${letter.lastIndexOf("o")}`);
+```
+
+**Recortar letra:**
+```c
+const data = "02/11/2024";
+console.log(`${data.substring(3, 5)}`);
+```
+
+**Remover espaço em branco:**
+```c
+const blackSpace = "Flávio Júnior   ";
+console.log(`${blackSpace.trim()}`);
+```
